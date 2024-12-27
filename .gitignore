@@ -1,0 +1,59 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Diretório de dependências
+node_modules/
+
+# Arquivos de compilação e cache
+dist/
+build/
+.cache/
+
+# Arquivos do ambiente
+.env
+.env.*.local
+
+# Arquivos temporários do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Configurações do editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+
+# Configurações de pacotes de teste
+coverage/
+.nyc_output/
+test-results/
+
+# Arquivos de lock de pacotes (se você não quiser versioná-los)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Configurações do Docker
+.dockerignore
+docker-compose.override.yml
+
+# Configurações do PM2
+*.pid
+pm2*.log
+
+# Configurações de serviços (caso use)
+*.local
+*.remote
+
+# Arquivos gerados por depuradores
+*.pid
+node-report*.json
+
+# Outros arquivos e diretórios temporários
+.tmp/
+temp/
